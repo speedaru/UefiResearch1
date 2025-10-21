@@ -1,0 +1,11 @@
+
+
+!IF EXIST(F:\coding\EFI_stuff\efi_spoofer_for_github\Build\UefiResearch1\RELEASE_VS2022\X64\MdePkg\Library\BasePrintLib\BasePrintLib\OUTPUT\PrintLib.c.deps)
+!INCLUDE F:\coding\EFI_stuff\efi_spoofer_for_github\Build\UefiResearch1\RELEASE_VS2022\X64\MdePkg\Library\BasePrintLib\BasePrintLib\OUTPUT\PrintLib.c.deps
+!ENDIF
+
+!IF EXIST(F:\coding\EFI_stuff\efi_spoofer_for_github\Build\UefiResearch1\RELEASE_VS2022\X64\MdePkg\Library\BasePrintLib\BasePrintLib\OUTPUT\PrintLibInternal.c.deps)
+!INCLUDE F:\coding\EFI_stuff\efi_spoofer_for_github\Build\UefiResearch1\RELEASE_VS2022\X64\MdePkg\Library\BasePrintLib\BasePrintLib\OUTPUT\PrintLibInternal.c.deps
+!ENDIF
+
+               

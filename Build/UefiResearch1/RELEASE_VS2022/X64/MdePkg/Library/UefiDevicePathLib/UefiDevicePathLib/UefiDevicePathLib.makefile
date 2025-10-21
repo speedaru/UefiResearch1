@@ -1,0 +1,1 @@
+F:\coding\EFI_stuff\efi_spoofer_for_github\Build\UefiResearch1\RELEASE_VS2022\X64\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib\Makefile

@@ -1,0 +1,244 @@
+ UefiResearch1.dll
+
+ Timestamp is 68f807ff (Wed Oct 22 00:23:59 2025)
+
+ Preferred load address is 0000000000000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000ae4H .text                   CODE
+ 0001:00000ae4 00001b98H .text$mn                CODE
+ 0002:00000000 00000010H .data                   DATA
+ 0002:00000010 00000490H .rdata                  DATA
+ 0002:000004a0 00000140H .bss                    DATA
+ 0002:000005e0 00000018H .rdata$voltmd           DATA
+ 0002:000005f8 000000a8H .rdata$zzzdbg           DATA
+ 0003:00000000 00000084H .pdata                  DATA
+ 0004:00000000 000000b4H .xdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_delayload_iat 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_delayload_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __hybrid_image_info_bitfield 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000000000000     <linker-defined>
+ 0001:00000000       AsmVmgExitSvsm             0000000000001000     BaseLib:VmgExitSvsm.obj
+ 0001:00000060       AsmVmgExit                 0000000000001060     BaseLib:VmgExit.obj
+ 0001:00000070       AsmXSetBv                  0000000000001070     BaseLib:XSetBv.obj
+ 0001:00000080       AsmXGetBv                  0000000000001080     BaseLib:XGetBv.obj
+ 0001:00000090       AsmRmpAdjust               0000000000001090     BaseLib:RmpAdjust.obj
+ 0001:000000a0       InternalX86RdRand16        00000000000010a0     BaseLib:RdRand.obj
+ 0001:000000b2       InternalX86RdRand32        00000000000010b2     BaseLib:RdRand.obj
+ 0001:000000c3       InternalX86RdRand64        00000000000010c3     BaseLib:RdRand.obj
+ 0001:000000e0       AsmPvalidate               00000000000010e0     BaseLib:Pvalidate.obj
+ 0001:00000100       InternalX86DisablePaging64 0000000000001100     BaseLib:DisablePaging64.obj
+ 0001:00000170       EnableDisableInterrupts    0000000000001170     BaseLib:EnableDisableInterrupts.obj
+ 0001:00000180       TdVmCall                   0000000000001180     BaseLib:TdVmcall.obj
+ 0001:00000200       TdCall                     0000000000001200     BaseLib:TdCall.obj
+ 0001:00000260       AsmReadEflags              0000000000001260     BaseLib:ReadEflags.obj
+ 0001:00000270       AsmReadCr0                 0000000000001270     BaseLib:ReadCr0.obj
+ 0001:00000280       AsmReadCr2                 0000000000001280     BaseLib:ReadCr2.obj
+ 0001:00000290       AsmReadCr3                 0000000000001290     BaseLib:ReadCr3.obj
+ 0001:000002a0       AsmReadCr4                 00000000000012a0     BaseLib:ReadCr4.obj
+ 0001:000002b0       AsmWriteCr0                00000000000012b0     BaseLib:WriteCr0.obj
+ 0001:000002c0       AsmWriteCr2                00000000000012c0     BaseLib:WriteCr2.obj
+ 0001:000002d0       AsmWriteCr3                00000000000012d0     BaseLib:WriteCr3.obj
+ 0001:000002e0       AsmWriteCr4                00000000000012e0     BaseLib:WriteCr4.obj
+ 0001:000002f0       AsmReadDr0                 00000000000012f0     BaseLib:ReadDr0.obj
+ 0001:00000300       AsmReadDr1                 0000000000001300     BaseLib:ReadDr1.obj
+ 0001:00000310       AsmReadDr2                 0000000000001310     BaseLib:ReadDr2.obj
+ 0001:00000320       AsmReadDr3                 0000000000001320     BaseLib:ReadDr3.obj
+ 0001:00000330       AsmReadDr4                 0000000000001330     BaseLib:ReadDr4.obj
+ 0001:00000340       AsmReadDr5                 0000000000001340     BaseLib:ReadDr5.obj
+ 0001:00000350       AsmReadDr6                 0000000000001350     BaseLib:ReadDr6.obj
+ 0001:00000360       AsmReadDr7                 0000000000001360     BaseLib:ReadDr7.obj
+ 0001:00000370       AsmWriteDr0                0000000000001370     BaseLib:WriteDr0.obj
+ 0001:00000380       AsmWriteDr1                0000000000001380     BaseLib:WriteDr1.obj
+ 0001:00000390       AsmWriteDr2                0000000000001390     BaseLib:WriteDr2.obj
+ 0001:000003a0       AsmWriteDr3                00000000000013a0     BaseLib:WriteDr3.obj
+ 0001:000003b0       AsmWriteDr4                00000000000013b0     BaseLib:WriteDr4.obj
+ 0001:000003c0       AsmWriteDr5                00000000000013c0     BaseLib:WriteDr5.obj
+ 0001:000003d0       AsmWriteDr6                00000000000013d0     BaseLib:WriteDr6.obj
+ 0001:000003e0       AsmWriteDr7                00000000000013e0     BaseLib:WriteDr7.obj
+ 0001:000003f0       AsmReadCs                  00000000000013f0     BaseLib:ReadCs.obj
+ 0001:00000400       AsmReadDs                  0000000000001400     BaseLib:ReadDs.obj
+ 0001:00000410       AsmReadEs                  0000000000001410     BaseLib:ReadEs.obj
+ 0001:00000420       AsmReadFs                  0000000000001420     BaseLib:ReadFs.obj
+ 0001:00000430       AsmReadGs                  0000000000001430     BaseLib:ReadGs.obj
+ 0001:00000440       AsmReadSs                  0000000000001440     BaseLib:ReadSs.obj
+ 0001:00000450       AsmReadTr                  0000000000001450     BaseLib:ReadTr.obj
+ 0001:00000460       InternalX86ReadGdtr        0000000000001460     BaseLib:ReadGdtr.obj
+ 0001:00000470       InternalX86WriteGdtr       0000000000001470     BaseLib:WriteGdtr.obj
+ 0001:00000480       InternalX86ReadIdtr        0000000000001480     BaseLib:ReadIdtr.obj
+ 0001:00000490       InternalX86WriteIdtr       0000000000001490     BaseLib:WriteIdtr.obj
+ 0001:000004a0       AsmReadLdtr                00000000000014a0     BaseLib:ReadLdtr.obj
+ 0001:000004b0       AsmWriteLdtr               00000000000014b0     BaseLib:WriteLdtr.obj
+ 0001:000004c0       InternalX86FxSave          00000000000014c0     BaseLib:FxSave.obj
+ 0001:000004d0       InternalX86FxRestore       00000000000014d0     BaseLib:FxRestore.obj
+ 0001:000004e0       AsmReadMm0                 00000000000014e0     BaseLib:ReadMm0.obj
+ 0001:000004f0       AsmReadMm1                 00000000000014f0     BaseLib:ReadMm1.obj
+ 0001:00000500       AsmReadMm2                 0000000000001500     BaseLib:ReadMm2.obj
+ 0001:00000510       AsmReadMm3                 0000000000001510     BaseLib:ReadMm3.obj
+ 0001:00000520       AsmReadMm4                 0000000000001520     BaseLib:ReadMm4.obj
+ 0001:00000530       AsmReadMm5                 0000000000001530     BaseLib:ReadMm5.obj
+ 0001:00000540       AsmReadMm6                 0000000000001540     BaseLib:ReadMm6.obj
+ 0001:00000550       AsmReadMm7                 0000000000001550     BaseLib:ReadMm7.obj
+ 0001:00000560       AsmWriteMm0                0000000000001560     BaseLib:WriteMm0.obj
+ 0001:00000570       AsmWriteMm1                0000000000001570     BaseLib:WriteMm1.obj
+ 0001:00000580       AsmWriteMm2                0000000000001580     BaseLib:WriteMm2.obj
+ 0001:00000590       AsmWriteMm3                0000000000001590     BaseLib:WriteMm3.obj
+ 0001:000005a0       AsmWriteMm4                00000000000015a0     BaseLib:WriteMm4.obj
+ 0001:000005b0       AsmWriteMm5                00000000000015b0     BaseLib:WriteMm5.obj
+ 0001:000005c0       AsmWriteMm6                00000000000015c0     BaseLib:WriteMm6.obj
+ 0001:000005d0       AsmWriteMm7                00000000000015d0     BaseLib:WriteMm7.obj
+ 0001:000005e0       AsmReadTsc                 00000000000015e0     BaseLib:ReadTsc.obj
+ 0001:000005f0       AsmReadPmc                 00000000000015f0     BaseLib:ReadPmc.obj
+ 0001:00000600       AsmMonitor                 0000000000001600     BaseLib:Monitor.obj
+ 0001:00000610       AsmMwait                   0000000000001610     BaseLib:Mwait.obj
+ 0001:00000620       AsmWbinvd                  0000000000001620     BaseLib:Wbinvd.obj
+ 0001:00000630       AsmInvd                    0000000000001630     BaseLib:Invd.obj
+ 0001:00000640       AsmFlushCacheLine          0000000000001640     BaseLib:FlushCacheLine.obj
+ 0001:00000650       EnableInterrupts           0000000000001650     BaseLib:EnableInterrupts.obj
+ 0001:00000660       DisableInterrupts          0000000000001660     BaseLib:DisableInterrupts.obj
+ 0001:00000670       CpuPause                   0000000000001670     BaseLib:CpuPause.obj
+ 0001:00000680       AsmLfence                  0000000000001680     BaseLib:Lfence.obj
+ 0001:00000690       AsmWriteTr                 0000000000001690     BaseLib:WriteTr.obj
+ 0001:000006a0       AsmDisableCache            00000000000016a0     BaseLib:DisableCache.obj
+ 0001:000006c0       AsmEnableCache             00000000000016c0     BaseLib:EnableCache.obj
+ 0001:000006e0       InternalSwitchStack        00000000000016e0     BaseLib:SwitchStack.obj
+ 0001:000006f0       SetJump                    00000000000016f0     BaseLib:SetJump.obj
+ 0001:000007c0       InternalLongJump           00000000000017c0     BaseLib:LongJump.obj
+ 0001:00000870       AsmCpuid                   0000000000001870     BaseLib:CpuId.obj
+ 0001:000008a0       AsmCpuidEx                 00000000000018a0     BaseLib:CpuIdEx.obj
+ 0001:000008d0       m16Start                   00000000000018d0     BaseLib:Thunk16.obj
+ 0001:00000a00       InternalAsmThunk16         0000000000001a00     BaseLib:Thunk16.obj
+ 0001:00000ae0       __report_rangecheckfailure 0000000000001ae0     StackCheckLibNull:StackCheckFunctionsMsvc.obj
+ 0001:00000ae1       __GSHandlerCheck           0000000000001ae1     StackCheckLibNull:StackCheckFunctionsMsvc.obj
+ 0001:00000ae2       __security_check_cookie    0000000000001ae2     StackCheckLibNull:StackCheckFunctionsMsvc.obj
+ 0001:00000ae4       StrnLenS                   0000000000001ae4 f   BaseLib:SafeString.obj
+ 0001:00000b18       StrCpyS                    0000000000001b18 f   BaseLib:SafeString.obj
+ 0001:00000bb4       InternalAssertJumpBuffer   0000000000001bb4 f   BaseLib:SetJump.obj
+ 0001:00000bb8       InternalMemCopyMem         0000000000001bb8 f   BaseMemoryLib:CopyMem.obj
+ 0001:00000c8c       InternalMemSetMem          0000000000001c8c f   BaseMemoryLib:SetMem.obj
+ 0001:00000d00       BasePrintLibFillBuffer     0000000000001d00 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000d34       BasePrintLibSPrintMarker   0000000000001d34 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00001bf8       BasePrintLibSPrint         0000000000002bf8 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00001c20       ExitBootServicesCallback   0000000000002c20 f   UefiDebugLibConOut:DebugLibConstructor.obj
+ 0001:00001c28       InternalAllocatePool       0000000000002c28 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001c64       InternalAllocateZeroPool   0000000000002c64 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001c94       _ModuleEntryPoint          0000000000002c94 f   UefiApplicationEntryPoint:ApplicationEntryPoint.obj
+ 0001:00001d28       UefiLibGetStringWidth      0000000000002d28 f   UefiLib:Console.obj
+ 0001:00001dd0       CreatePopUp                0000000000002dd0 f   UefiLib:Console.obj
+ 0001:000022e8       InternalPrint              00000000000032e8 f   UefiLib:UefiLibPrint.obj
+ 0001:00002390       Print                      0000000000003390 f   UefiLib:UefiLibPrint.obj
+ 0001:000023c0       UefiMain                   00000000000033c0 f   UefiResearch1:main.obj
+ 0002:00000000       m16Size                    0000000000004000     BaseLib:Thunk16.obj
+ 0002:00000002       mThunk16Attr               0000000000004002     BaseLib:Thunk16.obj
+ 0002:00000004       m16Gdt                     0000000000004004     BaseLib:Thunk16.obj
+ 0002:00000006       m16GdtrBase                0000000000004006     BaseLib:Thunk16.obj
+ 0002:00000008       mTransition                0000000000004008     BaseLib:Thunk16.obj
+ 0002:00000010       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO@ 0000000000004010     BasePrintLib:PrintLibInternal.obj
+ 0002:00000020       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO@ 0000000000004020     BasePrintLib:PrintLibInternal.obj
+ 0002:00000030       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02@ 0000000000004030     BasePrintLib:PrintLibInternal.obj
+ 0002:00000068       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO@ 0000000000004068     BasePrintLib:PrintLibInternal.obj
+ 0002:00000078       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d@ 0000000000004078     BasePrintLib:PrintLibInternal.obj
+ 0002:00000094       ??_C@_04JIMNDDED@?$CF08X@  0000000000004094     BasePrintLib:PrintLibInternal.obj
+ 0002:0000009c       ??_C@_02PCIJFNDE@?$AN?6@   000000000000409c     BasePrintLib:PrintLibInternal.obj
+ 0002:000000a0       ??_C@_01LIIJDEN@?$AN@      00000000000040a0     BasePrintLib:PrintLibInternal.obj
+ 0002:000000b0       mWarningString             00000000000040b0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000180       mErrorString               0000000000004180     BasePrintLib:PrintLibInternal.obj
+ 0002:00000460       mHexStr                    0000000000004460     BasePrintLib:PrintLibInternal.obj
+ 0002:00000470       ??_C@_17LGKOMLJ@?$AA?4?$AA?4?$AA?4@ 0000000000004470     UefiLib:Console.obj
+ 0002:00000478       _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask 0000000000004478     UefiResearch1:AutoGen.obj
+ 0002:000004a0       __security_cookie          00000000000044a0     StackCheckLibNull:StackCheckLibNullMsvc.obj
+ 0002:000004a8       mPostEBS                   00000000000044a8     UefiDebugLibConOut:DebugLibConstructor.obj
+ 0002:000004b0       gST                        00000000000044b0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000004b8       gImageHandle               00000000000044b8     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000004c0       gBS                        00000000000044c0     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000004c8       gRT                        00000000000044c8     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000004d0       ?result@?1??decrypt@?$XorStr@_W$0BP@@@QEBAPEA_WXZ@4PA_WA 00000000000044d0     UefiResearch1:xor_str.obj
+ 0002:00000510       ?result@?1??decrypt@?$XorStr@_W$0CC@@@QEBAPEA_WXZ@4PA_WA 0000000000004510     UefiResearch1:xor_str.obj
+ 0002:00000560       ?result@?1??decrypt@?$XorStr@_W$0BM@@@QEBAPEA_WXZ@4PA_WA 0000000000004560     UefiResearch1:xor_str.obj
+ 0002:000005a0       ?result@?1??decrypt@?$XorStr@_W$0BG@@@QEBAPEA_WXZ@4PA_WA 00000000000045a0     UefiResearch1:xor_str.obj
+ 0002:000005d8       mDebugST                   00000000000045d8     <common>
+ 0002:000005e0       __volatile_metadata        00000000000045e0     <linker-defined>
+
+ entry point at        0001:00001c94
+
+ Static symbols
+
+ 0001:000000a9       rn16_ok                    00000000000010a9     BaseLib:RdRand.obj
+ 0001:000000bb       rn32_ok                    00000000000010bb     BaseLib:RdRand.obj
+ 0001:000000cd       rn64_ok                    00000000000010cd     BaseLib:RdRand.obj
+ 0001:000000fa       PvalidateExit              00000000000010fa     BaseLib:Pvalidate.obj
+ 0001:0000013a       InternalX86DisablePaging64.0 000000000000113a     BaseLib:DisablePaging64.obj
+ 0001:00000161       mTransitionEnd             0000000000001161     BaseLib:DisablePaging64.obj
+ 0001:000001d9       TdVmCall.no_return_data    00000000000011d9     BaseLib:TdVmcall.obj
+ 0001:0000024b       TdCall.exit                000000000000124b     BaseLib:TdCall.obj
+ 0001:00000733       CetDone                    0000000000001733     BaseLib:SetJump.obj
+ 0001:000007f0       CetDone                    00000000000017f0     BaseLib:LongJump.obj
+ 0001:0000087f       AsmCpuid.0                 000000000000187f     BaseLib:CpuId.obj
+ 0001:00000884       AsmCpuid.1                 0000000000001884     BaseLib:CpuId.obj
+ 0001:0000088b       AsmCpuid.2                 000000000000188b     BaseLib:CpuId.obj
+ 0001:00000894       AsmCpuid.3                 0000000000001894     BaseLib:CpuId.obj
+ 0001:000008b5       AsmCpuidEx.0               00000000000018b5     BaseLib:CpuIdEx.obj
+ 0001:000008bc       AsmCpuidEx.1               00000000000018bc     BaseLib:CpuIdEx.obj
+ 0001:000008c3       AsmCpuidEx.2               00000000000018c3     BaseLib:CpuIdEx.obj
+ 0001:000008cc       AsmCpuidEx.3               00000000000018cc     BaseLib:CpuIdEx.obj
+ 0001:000008d0       SavedGdt                   00000000000018d0     BaseLib:Thunk16.obj
+ 0001:000008da       _BackFromUserCode          00000000000018da     BaseLib:Thunk16.obj
+ 0001:000008e2       _BackFromUserCode.Base     00000000000018e2     BaseLib:Thunk16.obj
+ 0001:000008f6       _BackFromUserCode.ThunkAttrEnd 00000000000018f6     BaseLib:Thunk16.obj
+ 0001:00000903       _BackFromUserCode.1        0000000000001903     BaseLib:Thunk16.obj
+ 0001:0000090e       _BackFromUserCode.2        000000000000190e     BaseLib:Thunk16.obj
+ 0001:00000944       _BackFromUserCode.SavedCr4End 0000000000001944     BaseLib:Thunk16.obj
+ 0001:00000960       _BackFromUserCode.SavedCr0End 0000000000001960     BaseLib:Thunk16.obj
+ 0001:0000096b       _BackFromUserCode.X64JmpEnd 000000000000196b     BaseLib:Thunk16.obj
+ 0001:00000976       _BackFromUserCode.SavedSpEnd 0000000000001976     BaseLib:Thunk16.obj
+ 0001:00000978       _EntryPoint                0000000000001978     BaseLib:Thunk16.obj
+ 0001:0000097e       _16Gdtr                    000000000000197e     BaseLib:Thunk16.obj
+ 0001:00000980       _16GdtrBase                0000000000001980     BaseLib:Thunk16.obj
+ 0001:00000988       _16Idtr                    0000000000001988     BaseLib:Thunk16.obj
+ 0001:0000098e       _ToUserCode                000000000000198e     BaseLib:Thunk16.obj
+ 0001:000009b6       _ToUserCode.Base           00000000000019b6     BaseLib:Thunk16.obj
+ 0001:000009c5       _ToUserCode.RealMode       00000000000019c5     BaseLib:Thunk16.obj
+ 0001:000009e0       _NullSeg                   00000000000019e0     BaseLib:Thunk16.obj
+ 0001:000009e8       _16Code                    00000000000019e8     BaseLib:Thunk16.obj
+ 0001:000009f0       _16Data                    00000000000019f0     BaseLib:Thunk16.obj
+ 0001:000009f8       _32Data                    00000000000019f8     BaseLib:Thunk16.obj
+ 0001:00000ab4       InternalAsmThunk16.RetFromRealMode 0000000000001ab4     BaseLib:Thunk16.obj
+ 0002:000005d0       mExitBootServicesEvent     00000000000045d0     UefiDebugLibConOut:DebugLibConstructor.obj
+ 0004:00000000       $unwind$StrCpyS            0000000000006000     BaseLib:SafeString.obj
+ 0004:00000000       $unwind$InternalAllocateZeroPool 0000000000006000     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0004:00000008       $unwind$BasePrintLibSPrintMarker 0000000000006008     BasePrintLib:PrintLibInternal.obj
+ 0004:0000002c       $unwind$BasePrintLibSPrint 000000000000602c     BasePrintLib:PrintLibInternal.obj
+ 0004:00000034       $unwind$InternalAllocatePool 0000000000006034     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0004:0000003c       $unwind$_ModuleEntryPoint  000000000000603c     UefiApplicationEntryPoint:ApplicationEntryPoint.obj
+ 0004:00000048       $unwind$UefiLibGetStringWidth 0000000000006048     UefiLib:Console.obj
+ 0004:0000005c       $unwind$CreatePopUp        000000000000605c     UefiLib:Console.obj
+ 0004:0000007c       $unwind$InternalPrint      000000000000607c     UefiLib:UefiLibPrint.obj
+ 0004:00000090       $unwind$Print              0000000000006090     UefiLib:UefiLibPrint.obj
+ 0004:00000098       $unwind$UefiMain           0000000000006098     UefiResearch1:main.obj

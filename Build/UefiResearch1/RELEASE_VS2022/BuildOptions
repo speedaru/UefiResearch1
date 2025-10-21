@@ -1,0 +1,3 @@
+gCommandLineDefines: {'ARCH': 'X64'}
+BuildOptionPcd: []
+Active Platform: F:\coding\EFI_stuff\efi_spoofer_for_github\UefiResearch1\UefiResearch1.dsc

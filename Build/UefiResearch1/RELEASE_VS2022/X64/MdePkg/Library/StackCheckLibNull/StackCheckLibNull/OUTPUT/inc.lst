@@ -1,0 +1,9 @@
+/IF:\coding\EFI_stuff\efi_spoofer_for_github\MdePkg\Library\StackCheckLibNull\X64
+/IF:\coding\EFI_stuff\efi_spoofer_for_github\MdePkg\Library\StackCheckLibNull
+/IF:\coding\EFI_stuff\efi_spoofer_for_github\Build\UefiResearch1\RELEASE_VS2022\X64\MdePkg\Library\StackCheckLibNull\StackCheckLibNull\DEBUG
+/IF:\coding\EFI_stuff\efi_spoofer_for_github\MdePkg
+/IF:\coding\EFI_stuff\efi_spoofer_for_github\MdePkg\Include
+/IF:\coding\EFI_stuff\efi_spoofer_for_github\MdePkg\Test\UnitTest\Include
+/IF:\coding\EFI_stuff\efi_spoofer_for_github\MdePkg\Test\Mock\Include
+/IF:\coding\EFI_stuff\efi_spoofer_for_github\MdePkg\Library\MipiSysTLib\mipisyst\library\include
+/IF:\coding\EFI_stuff\efi_spoofer_for_github\MdePkg\Include\X64
