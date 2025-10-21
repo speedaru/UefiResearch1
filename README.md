@@ -17,25 +17,25 @@
 │ UefiResearch1.inf
 │
 ├───crypto
-│ sha256.c
-│ sha256.h
-│ xor_str.cpp
-│ xor_str.hpp
-│ xor_str_export.h
-│ xxtea.c
-│ xxtea.h
+│     sha256.c
+│     sha256.h
+│     xor_str.cpp
+│     xor_str.hpp
+│     xor_str_export.h
+│     xxtea.c
+│     xxtea.h
 │
 ├───structs
-│ string.c
-│ string.h
+│     string.c
+│     string.h
 │
 ├───utils
-│ filesystem.c
-│ filesystem.h
-│ parser.c
-│ parser.h
-│ str_ext.c
-│ str_ext.h
+│     filesystem.c
+│     filesystem.h
+│     parser.c
+│     parser.h
+│     str_ext.c
+│     str_ext.h
 ```
 
 ### Description rapide des composants publics
