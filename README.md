@@ -81,7 +81,7 @@ Ne pas utiliser ces composants pour contourner protections, masquer identifiants
 Le propriétaire du dépôt se réserve le droit de refuser l'accès au code complet à des demandes ne respectant pas un objectif académique/technique légitime.
 
 Demande d'accès au code complet / revue technique
-Le code complet du POC (contenant des composants non‑publics) est disponible uniquement pour revue technique sous NDA. Pour demander l'accès, merci d'envoyer une demande professionnelle à : ton.email@example.com (ou via le contact de mon profil GitHub). Indiquez le motif technique de la revue et l'organisation requérante.
+Le code complet du POC (contenant des composants non‑publics) est disponible uniquement pour revue technique sous NDA.
 
 Attribution
 Certains fichiers cryptographiques (sha256.*, xxtea.*) proviennent de projets open‑source publics et sont inclus ici pour tests/validation. Voir les en‑têtes de fichiers et licences correspondantes pour les détails.
