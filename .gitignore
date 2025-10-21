@@ -1,6 +1,6 @@
-./Build/
-*.cache/
-
-*.clangd*
+Build/
+Conf/.cache/
 
 UefiResearch1/uefi_stuff/
+UefiResearch1/.clangd
+UefiResearch1/.clangd_rel

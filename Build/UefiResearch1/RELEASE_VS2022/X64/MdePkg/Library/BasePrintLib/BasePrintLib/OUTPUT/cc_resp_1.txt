@@ -1,1 +1,0 @@
-  F:\coding\EFI_stuff\efi_spoofer_for_github\MdePkg\Library\BasePrintLib\PrintLibInternal.c F:\coding\EFI_stuff\efi_spoofer_for_github\MdePkg\Library\BasePrintLib\PrintLib.c
