@@ -1,0 +1,6 @@
+Build/
+*.cache/
+
+*.clangd*
+
+UefiResearch1/uefi_stuff/

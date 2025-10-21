@@ -1,0 +1,37 @@
+[Defines]
+  INF_VERSION  = 0x00010005
+  BASE_NAME    = UefiResearch1
+  FILE_GUID    = 12345678-1234-1234-1234-123456789ABC
+  MODULE_TYPE  = UEFI_APPLICATION
+  ENTRY_POINT  = UefiMain
+
+[Sources]
+  main.c
+
+  # Utils
+  utils/filesystem.c
+  utils/parser.c
+  utils/str_ext.c
+
+  # Structs
+  structs/string.c
+
+  #crypto
+  crypto/sha256.c
+  crypto/xxtea.c
+  crypto/xor_str.cpp
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[Protocols]
+  gEfiSmbiosProtocolGuid
+  gEfiLoadedImageProtocolGuid
+
+[Guids]
+  gEfiFileInfoGuid
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  PcdLib
