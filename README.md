@@ -8,34 +8,35 @@
 
 ## Contenu du dépôt (fichiers laissés publiquement)
 
-UefiResearch1<br>
-│ compile.bat<br>
-│ main.c # logique sensible enlevée (POC spoof retiré)<br>
-│ main.h<br>
-│ UefiResearch1.dec<br>
-│ UefiResearch1.dsc<br>
-│ UefiResearch1.inf<br>
-│<br>
-├───crypto<br>
-│ sha256.c<br>
-│ sha256.h<br>
-│ xor_str.cpp<br>
-│ xor_str.hpp<br>
-│ xor_str_export.h<br>
-│ xxtea.c<br>
-│ xxtea.h<br>
-│<br>
-├───structs<br>
-│ string.c<br>
-│ string.h<br>
-│<br>
-├───utils<br>
-│ filesystem.c<br>
-│ filesystem.h<br>
-│ parser.c<br>
-│ parser.h<br>
-│ str_ext.c<br>
-│ str_ext.h<br>
+```
+│ compile.bat
+│ main.c # logique sensible enlevée (POC spoof retiré)
+│ main.h
+│ UefiResearch1.dec
+│ UefiResearch1.dsc
+│ UefiResearch1.inf
+│
+├───crypto
+│ sha256.c
+│ sha256.h
+│ xor_str.cpp
+│ xor_str.hpp
+│ xor_str_export.h
+│ xxtea.c
+│ xxtea.h
+│
+├───structs
+│ string.c
+│ string.h
+│
+├───utils
+│ filesystem.c
+│ filesystem.h
+│ parser.c
+│ parser.h
+│ str_ext.c
+│ str_ext.h
+```
 
 ### Description rapide des composants publics
 - **`structs/string.c` / `structs/string.h`**  
