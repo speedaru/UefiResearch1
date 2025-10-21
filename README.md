@@ -39,7 +39,7 @@
 ```
 
 ### Description rapide des composants publics
-- **`structs/string.c` / `structs/string.h`**  
+- **`structs/string.*`**  
   Implémentation d'une structure `String` adaptée à des environnements contraints. Montre l'allocation manuelle, les opérations de copie/concaténation et les checks basiques de taille. Valeur pédagogique : gestion mémoire manuelle et design d'API C pour code bas‑niveau.
 
 - **`utils/str_ext.*`**  
